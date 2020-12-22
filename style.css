@@ -1,4 +1,6 @@
-#content, html, body {
+* {box-sizing: border-box;}
+
+#content {
     height: 100%;
     margin: 0px;
     font-family: linotype-sabon, sans-serif;
@@ -11,26 +13,45 @@
 
 }
 
-#top, html, body {
-    width: 80vw;
-    height: 100vh;
-    min-width: 800px;
-    padding: 20px;
+#intro {
+    position: relative;
+    width: 50%;
+    padding: 15px;
 }
+
+.titles 
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 50px;
+
+<!-- ******Collumns as Classes****** -->
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #00000;
+    background-color: #F3F3ED;
+}
+
+.col-1 {width: 16.6%;}
+.col-2 {width: 33.2%;}
+.col-3 {width: 49.8%;}
+.col-4 {width: 66.4%;}
+.col-5 {width: 83%;}
+.col-6 {width: 100%;}
+
 
 ——————MOBILE———————
-
-@media screen and (min-width: 200px) {
-
-#content, html, body {
-      font-size: 18px;
-  }
-
-#top, html, body {
-    width: 100vw;
-    height: 100vh;
-    min-width: 800px;
-    padding: 20px;
-}
-
-  }
