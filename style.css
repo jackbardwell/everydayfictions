@@ -1,11 +1,3 @@
-@media screen and (min-width: 200px) {
-  body {
-  font-size: 12px;
-  width: 100vw;
-
-  }
-}
-
 #content, html, body {
     height: 100%;
     margin: 0px;
@@ -24,4 +16,22 @@
     height: 100vh;
     min-width: 800px;
     padding: 20px;
+}
+
+——————MOBILE———————
+
+@media screen and (min-width: 200px) {
+
+#content, html, body {
+      font-size: 18px;
+  }
+
+#top, html, body {
+    width: 100vw;
+    height: 100vh;
+    min-width: 800px;
+    padding: 20px;
+}
+
+  }
 }
