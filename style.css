@@ -33,13 +33,18 @@ h1 {
     text-decoration-thickness: 1px;
 }
 
-.contact { 
+#contact { 
+    position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
     font-family: linotype-sabon, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #00000;
+    background-color: #F3F3ED;
 }
 
 
@@ -78,7 +83,7 @@ h1 {
 
 [class*="col-"] {
   float: left;
-  padding: 30px;
+  padding: 25px;
 }
 
 .col-1 {width: 16.6%;}
@@ -87,6 +92,8 @@ h1 {
 .col-4 {width: 66.4%;}
 .col-5 {width: 83%;}
 .col-6 {width: 100%;}
+
+
 
 
 <!-- ***MOBILE*** -->
