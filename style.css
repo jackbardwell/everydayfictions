@@ -96,4 +96,14 @@ h1 {
 
 
 
-<!-- ***MOBILE*** -->
+<!-- ***RESPONISVE TYPOGRAPHY** -->
+
+@media screen and (min-width: 480px) {
+  .intro { font-size: 30px; }
+}
+@media screen and (min-width: 640px) {
+  .intro { font-size: 40px; }
+}
+@media screen and (min-width: 1024px) {
+  .intro { font-size: 50px; }
+}
