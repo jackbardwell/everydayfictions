@@ -1,7 +1,13 @@
 * {box-sizing: border-box;}
 * {margin: 0px; padding: 0px;}
 
-body { background-color: #F3F3ED;}
+
+
+#container html, body {
+    height: 100%;
+    margin: 0px;
+    background-color: #F3F3ED;
+}
 
 
 span {
@@ -11,6 +17,31 @@ span {
     text-decoration-color: black;
     text-decoration-thickness: 3px;
 }
+
+
+h1 {
+
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #00000;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+}
+
+.contact { 
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #00000;
+}
+
 
 <!-- ******Collumns as Classes****** -->
 
@@ -30,45 +61,18 @@ span {
     font-weight: normal;
     font-size: 50px;
     color: #00000;
-    background-color: #F3F3ED;
     overflow: hidden;
 
 }
 
 .columns
 {
-font-family: linotype-sabon, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    color: #00000;
-    background-color: #F3F3ED;
-}
-
-h1 {
-
     font-family: linotype-sabon, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     color: #00000;
-    background-color: #F3F3ED;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: black;
-    text-decoration-thickness: 1px;
-}
-
-.contact { 
-    font-family: linotype-sabon, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: #00000;
-    background-color: #F3F3ED;
 }
 
 
@@ -85,4 +89,4 @@ h1 {
 .col-6 {width: 100%;}
 
 
-——————MOBILE———————
+<!-- ***MOBILE*** -->
