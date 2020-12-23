@@ -64,7 +64,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 45px;
     color: #00000;
     overflow: hidden;
 
@@ -110,7 +110,7 @@ h1 {
   .intro { font-size: 40px; }
 }
 @media screen and (min-width: 1250px) {
-  .intro { font-size: 50px; }
+  .intro { font-size: 45px; }
 }
 
 
@@ -122,7 +122,7 @@ h1 {
 @media screen and (min-width: 600px) {
   h1 { font-size: 20px; }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 880px) {
   h1 { font-size: 22px; }
 }
 @media screen and (min-width: 1250px) {
@@ -132,12 +132,12 @@ h1 {
 /*bottom columns*/
 
 @media screen and (min-width: 480px) {
-  .columns { font-size: 20px; }
+  .columns { font-size: 22px; }
 }
 @media screen and (min-width: 600px) {
-  .columns { font-size: 20px; }
+  .columns { font-size: 22px; }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 880px) {
   .columns { font-size: 22px; }
 }
 @media screen and (min-width: 1250px) {
@@ -145,7 +145,7 @@ h1 {
 }
 
 /*RESPONISVE COLUMNS*/
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 880px) {
 .col-1 {width: 33.2%;}
 .col-2 {width: 49.8%;}
 .col-3 {width: 66.4%;}
