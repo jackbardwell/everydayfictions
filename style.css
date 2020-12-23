@@ -48,7 +48,7 @@ h1 {
 }
 
 
-<!-- ******Collumns as Classes****** -->
+/*Collumns as Classes*/
 
 .row::after {
   content: "";
@@ -96,14 +96,49 @@ h1 {
 
 
 
-<!-- ***RESPONISVE TYPOGRAPHY** -->
+/*RESPONISVE TYPOGRAPHY*/
 
-@media screen and (min-width: 480px) {
+/*intro*/
+
+@media screen and (max-width: 600px) {
   .intro { font-size: 30px; }
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 850px) {
   .intro { font-size: 40px; }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1250px) {
   .intro { font-size: 50px; }
 }
+
+
+/*headers*/
+
+@media screen and (max-width: 600px) {
+  h1 { font-size: 20px; }
+}
+@media screen and (min-width: 850px) {
+  h1 { font-size: 22px; }
+}
+@media screen and (min-width: 1250px) {
+  h1 { font-size: 25px; }
+}
+
+/*bottom columns*/
+
+@media screen and (min-width: 480px) {
+  .columns { font-size: 20px; }
+}
+@media screen and (min-width: 850px) {
+  .columns { font-size: 22px; }
+}
+@media screen and (min-width: 1250px) {
+  .columns{ font-size: 25px; }
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+
