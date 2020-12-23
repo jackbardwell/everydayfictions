@@ -94,8 +94,6 @@ h1 {
 .col-6 {width: 100%;}
 
 
-
-
 /*RESPONISVE TYPOGRAPHY*/
 
 /*intro*/
@@ -131,7 +129,7 @@ h1 {
 
 /*bottom columns*/
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .columns { font-size: 20px; }
 }
 @media screen and (min-width: 600px) {
