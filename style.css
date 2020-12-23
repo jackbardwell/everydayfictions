@@ -1,30 +1,16 @@
 * {box-sizing: border-box;}
+* {margin: 0px; padding: 0px;}
 
-#content {
-    height: 100%;
-    margin: 0px;
-    font-family: linotype-sabon, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    color: #00000;
-    background-color: #F3F3ED;
+body { background-color: #F3F3ED;}
 
-}
 
-#intro {
-    position: relative;
-    width: 50%;
-    padding: 15px;
-}
-
-.titles 
-    font-family: linotype-sabon, sans-serif;
-    font-weight: 400;
+span {
     font-style: italic;
-    font-weight: normal;
-    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
 
 <!-- ******Collumns as Classes****** -->
 
@@ -34,9 +20,34 @@
   display: table;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 10px;
+.intro
+{
+    height: 100%;
+    margin: 0px;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: #00000;
+    background-color: #F3F3ED;
+    overflow: hidden;
+
+}
+
+.columns
+{
+font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #00000;
+    background-color: #F3F3ED;
+}
+
+h1 {
+
     font-family: linotype-sabon, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -44,6 +55,26 @@
     font-size: 25px;
     color: #00000;
     background-color: #F3F3ED;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+}
+
+.contact { 
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #00000;
+    background-color: #F3F3ED;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 30px;
 }
 
 .col-1 {width: 16.6%;}
