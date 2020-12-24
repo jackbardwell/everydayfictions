@@ -100,9 +100,9 @@ h1 {
 .col-6 {width: 100%;}
 
 
-/*RESPONISVE TYPOGRAPHY*/
+/*RESPONISVE*/
 
-/*intro*/
+/*intro typography*/
 
 @media screen and (max-width: 600px) {
   .intro { font-size: 25px; }
@@ -118,7 +118,7 @@ h1 {
 }
 
 
-/*headers*/
+/*headers typography*/
 
 @media screen and (max-width: 600px) {
   h1 { font-size: 20px; }
@@ -133,7 +133,7 @@ h1 {
   h1 { font-size: 25px; }
 }
 
-/*bottom columns*/
+/*bottom columns typography*/
 
 @media screen and (max-width: 600px) {
   .columns { font-size: 20px; }
@@ -148,7 +148,7 @@ h1 {
   .columns{ font-size: 25px; }
 }
 
-/*RESPONISVE COLUMNS*/
+/*Columns from 3 to 2 at 880px*/
 @media screen and (max-width: 880px) {
 .col-1 {width: 33.2%;}
 .col-2 {width: 49.8%;}
@@ -159,7 +159,7 @@ h1 {
 
 }
 
-/*MOBILE*/
+/*Mobile 1 column at 100% width*/
 
 @media only screen and (max-width: 600px) {
   [class*="col-"] {
